@@ -5,9 +5,11 @@ const TodoList=(props)=>{
     console.log(props);
     return(
     <ul className="todolist">
-        <li> {props.list[0].itemname} </li>
-        <li> {props.list[1].itemname} </li>
-        <li> {props.list[2].itemname} </li>
+        {props.list.map((listitem)=>{
+
+          return  <li key={listitem.id}>{listitem.itemname}</li>
+    
+      })}
      </ul>
     );
 };
