@@ -5,7 +5,7 @@ import "./App.css";
  const App=()=>{
     const listitems=[
         {itemid :Math.trunc(Math.random()*100+1),itemname:"1. Buy Food"},
-        {itemid :Math.trunc(Math.random()*100+1),itemname:"2. Watch Tv"},
+        {itemid :Math.trunc(Math.random()*100+1),itemname:"2. Play"},
         {itemid :Math.trunc(Math.random()*100+1),itemname:"3. Study"},
 
 
